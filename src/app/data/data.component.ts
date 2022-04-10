@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Quote } from '@angular/compiler';
+import { Component, Input, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-data',
@@ -6,11 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./data.component.css']
 })
 export class DataComponent implements OnInit {
-  name="cars";
-  person={name:"angie",age:23,car:"prado"}
+  
 
-  machines=["probox","olwenda","canter","suzuki"]
-  isRich=true;
+  
 
   constructor() { }
 
