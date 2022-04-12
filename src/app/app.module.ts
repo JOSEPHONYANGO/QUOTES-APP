@@ -7,6 +7,7 @@ import { DataComponent } from './data/data.component';
 import { FormComponent } from './form/form.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { MainComponent } from './main/main.component';
+import { DetailsComponent } from './QUOTES/src/app/quotes/details/details.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainComponent } from './main/main.component';
     DataComponent,
     FormComponent,
     QuotesComponent,
-    MainComponent
+    MainComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
